@@ -85,5 +85,5 @@ def model_request():
     except Exception as e:
         return jsonify({'error': f'An error occurred: {str(e)}'})
 
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5100, debug=True)
+# if __name__ == '__main__':
+#     app.run(host='127.0.0.1', port=5100, debug=True)
